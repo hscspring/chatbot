@@ -53,10 +53,6 @@ analyzer.sample_dialog(sys_agent)
 analyzer.comprehensive_analyze(sys_agent=sys_agent, model_name='DAMD', total_dialog=100)
 ```
 
-结果如下：
-
-![](images/damd.png)
-
 ### 阅读论文
 
 分别阅读论文，了解思想和算法。
@@ -76,8 +72,6 @@ analyzer.comprehensive_analyze(sys_agent=sys_agent, model_name='DAMD', total_dia
 $ zsh train_end2end.sh cpu gpt2 gpt2-tiny 2
 ```
 
-![](images/simpletod.png)
-
 #### ubar
 
 训练代码：
@@ -86,11 +80,74 @@ $ zsh train_end2end.sh cpu gpt2 gpt2-tiny 2
 $ python3 train.py -mode train -cfg gpt_path=distilgpt2 lr=1e-4 warmup_steps=2000 gradient_accumulation_steps=16 batch_size=2 epoch_num=60 exp_no=best_model
 ```
 
-![](images/ubar.png)
-
 ### 评估推理
 
 使用之前构建好的 `chatbot_agent` 作为 user，新的模型作为 system（可参考之前的 damd），完成自动交互评估测试。
+
+#### simpletod
+
+```python
+sys_agent = SimpleTod(
+    data_path = os.path.join(root,  "data/simpletod"),
+    model_path = os.path.join(root, "model/simpletod/gpt2-small/checkpoint-111")
+)
+
+analyzer.sample_dialog(sys_agent)
+analyzer.comprehensive_analyze(sys_agent=sys_agent, model_name='simpletod', total_dialog=10)
+```
+
+#### ubar
+
+todo
+
+### 使用指南
+
+依赖：Python3.7
+
+```bash
+$ pip install -r requirements.txt
+$ cd chatbot_agent
+$ pip install -e .
+$ cd e2e_dialog
+$ pip install -e .
+```
+
+下载 data 和 model 到根目录：
+
+- 百度盘：链接: https://pan.baidu.com/s/13vIXu59iT5SdSKVFyAzqrw 提取码: 9d22
+
+解压后如下所示：
+
+```bash
+├── chatbot_agent
+├── data
+│   ├── agent
+│   ├── damd
+│   ├── simpletod
+│   └── ubar
+├── e2e_dialog
+├── eval
+├── model
+│   ├── damd
+│   ├── goal
+│   ├── simpletod
+│   ├── sys_context
+│   └── ubar
+├── requirements.txt
+```
+
+下载 Spacy 模型：
+
+```bash
+$ python -m spacy download en_core_web_sm
+```
+
+在 eval 目录下执行对应的模型：
+
+```bash
+$ python simpletod.py
+$ python damd.py
+```
 
 ## 附录
 
@@ -142,15 +199,5 @@ $ python3 train.py -mode train -cfg gpt_path=distilgpt2 lr=1e-4 warmup_steps=200
 │   ├── sys_context
 │   └── ubar
 └── requirements.txt
-```
-
-### 使用指南
-
-```bash
-$ pip install -r requirements.txt
-$ cd chatbot_agent
-$ pip install -e .
-$ cd e2e_dialog
-$ pip install -e .
 ```
 

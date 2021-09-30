@@ -1,6 +1,6 @@
 pnlp
 numpy
-transformers
+transformers==2.11.0
 torch
 unidecode
 spacy==2.2.2
@@ -11,3 +11,4 @@ nltk
 python-Levenshtein
 boto3
 tensorboardX
+wheel

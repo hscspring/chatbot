@@ -5,7 +5,8 @@ from e2e_dialog.simpletod import SimpleTod
 
 sys_agent = SimpleTod(
     data_path = os.path.join(root,  "data/simpletod"),
-    model_path = os.path.join(root, "model/simpletod/gpt2-small/checkpoint-111")
+    model_path = os.path.join(root, "model/simpletod/gpt2-small/checkpoint-111"),
+    max_len=512
 )
 
 analyzer.sample_dialog(sys_agent)

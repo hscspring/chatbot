@@ -7,6 +7,7 @@ __pycache__/
 images
 model
 data
+venv_chatbot
 
 # C extensions
 *.so

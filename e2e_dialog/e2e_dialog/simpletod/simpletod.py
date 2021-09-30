@@ -97,8 +97,8 @@ class SimpleTod(Agent):
         system = '<|system|> {}'.format(response_text)
         self.context = self.context + ' ' + system
         
-        # print("predicted_text: ", predicted_text)
-        # print("response_text: ", response_text)
+        print("predicted_text: ", predicted_text)
+        print("response_text: ", response_text)
         # print(self.domain_queue)
         return system
     
