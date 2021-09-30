@@ -1,0 +1,10 @@
+complete number of dialogs/tot: 0.0
+success number of dialogs/tot: 0.0
+average precision: 0.0
+average recall: 0.0
+average f1: 0.0
+average book rate: 0.0
+average turn (succ): 0
+average turn (all): 42.0
+percentage of domains that satisfy the database constraints: 0.312
+percentage of dialogs that satisfy the database constraints: 0.300

@@ -1,0 +1,13 @@
+pnlp
+numpy
+transformers
+torch
+unidecode
+spacy==2.2.2
+matplotlib
+fuzzywuzzy
+tqdm
+nltk
+python-Levenshtein
+boto3
+tensorboardX
