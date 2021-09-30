@@ -1,0 +1,32 @@
+user in []
+user out [['Inform', 'Hotel', 'none', 'none'], ['Inform', 'Hotel', 'Internet', 'yes'], ['Inform', 'Hotel', 'Stars', '4'], ['Inform', 'Hotel', 'Parking', 'yes']]
+user: I need a hotel please . I need one with wifi . Are there any 4 stars available ? It must have free parking .
+sys: there are 19 places that meet your criteria . what area would you like to stay in ?
+user in [['Request', 'Hotel', 'Area', '?'], ['Inform', 'Hotel', 'Choice', '19']]
+user out [['Inform', 'Hotel', 'Choice', 'any'], ['Inform', 'Hotel', 'Area', 'dontcare']]
+user: Just select one for me. I don't care about the area of the hotel.
+sys: i would recommend acorn guest house . would you like me to book it for you ?
+user in [['Inform', 'Booking', 'none', 'none'], ['Recommend', 'Hotel', 'Name', 'acorn guest house']]
+user out [['Inform', 'Hotel', 'NotBook', 'none']]
+user: I 'm not looking to make a booking at the moment.
+sys: what area would you like to stay in ?
+user in [['Request', 'Hotel', 'Area', '?']]
+user out [['Inform', 'Hotel', 'Area', 'dontcare']]
+user: I don't care about the area of the hotel.
+sys: i would recommend the acorn guest house . would you like me to book it for you ?
+user in [['Inform', 'Booking', 'none', 'none'], ['Select', 'Hotel', 'none', 'none'], ['Recommend', 'Hotel', 'Name', 'acorn guest house']]
+user out [['Inform', 'Hotel', 'NotBook', 'none'], ['Inform', 'Hotel', 'none', 'none']]
+user: I 'm not looking to make a booking at the moment. I also need a hotel.
+sys: what area would you like to stay in ?
+user in [['Request', 'Hotel', 'Area', '?']]
+user out [['Inform', 'Hotel', 'Area', 'dontcare']]
+user: I don't care about the area of the hotel.
+sys: i would recommend the acorn guest house . would you like me to book it for you ?
+user in [['Inform', 'Booking', 'none', 'none'], ['Select', 'Hotel', 'none', 'none'], ['Recommend', 'Hotel', 'Name', 'acorn guest house']]
+user out [['Inform', 'Hotel', 'NotBook', 'none'], ['Inform', 'Hotel', 'none', 'none']]
+user: I do not need to book. I ' m looking for a hotel .
+sys: there are 19 options available . what area would you like to stay in ?
+user in [['Request', 'Hotel', 'Area', '?'], ['Inform', 'Hotel', 'Choice', '19']]
+user out [['Inform', 'Hotel', 'Choice', 'any'], ['Inform', 'Hotel', 'Area', 'dontcare']]
+user: Please pick one for me. I don't care about the area of the hotel.
+sys: i would recommend acorn guest house . would you like me to book it for you ?

@@ -1,0 +1,840 @@
+user in []
+user out [['Inform', 'Hotel', 'none', 'none'], ['Inform', 'Hotel', 'Internet', 'yes'], ['Inform', 'Hotel', 'Stars', '4'], ['Inform', 'Hotel', 'Parking', 'yes']]
+user: I need a hotel please . I need one with wifi . Are there any 4 stars available ? It must have free parking .
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: I need the type of place it is , please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of accommodations are they.
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: I am wondering what type of hotel , please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: I am wondering what type of hotel , please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of hotel is it ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: I need the type of place it is , please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of hotel is it ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: I need the type of place it is , please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of hotel is it ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of hotels are they ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of hotel is it ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: I am wondering what type of hotel , please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of accommodations are they.
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of hotels are they ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of hotel is it ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of accommodations are they.
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: I need the type of place it is , please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of hotel is it ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Hotel', 'Type', '?']]
+user: What type of accommodations are they.
+sys: <|system|> 
+user in []
+user out [['bye', 'general', 'none', 'none']]
+user: Actually , I ' m all set . Thank you ! Bye !.
+sys: <|system|> 
+user in []
+user out [['Inform', 'Train', 'none', 'none'], ['Inform', 'Train', 'Depart', 'london liverpool street'], ['Inform', 'Train', 'Dest', 'cambridge'], ['Inform', 'Train', 'Day', 'wednesday']]
+user: Please book the train for me . I ' m departing from london liverpool street . Can you tell me when that train will be arriving in cambridge ? I would like to leave on wednesday.
+sys: <|system|> 
+user in []
+user out [['Inform', 'Train', 'Leave', '09:15']]
+user: I would like to leave anytime after 09:15 .
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: I need to know the price.
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: Can you tell me the price ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: I need to know the price.
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: I need to know the price.
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: Could you give me the price for that train ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: I need to know the price.
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: What 's the price ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: I need to know the price.
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: What 's the price ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: What is the price for the train ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: Could you give me the price for that train ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: What is the price of a ticket , please ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: What is the price of a ticket , please ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: What is the price of a ticket , please ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: What is the price for the train ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: What 's the price ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: I need to know the price.
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Ticket', '?']]
+user: What 's the price ?
+sys: <|system|> 
+user in []
+user out [['bye', 'general', 'none', 'none']]
+user: That 's all I need today . Thanks ! Bye !.
+sys: <|system|> 
+user in []
+user out [['Inform', 'Train', 'none', 'none'], ['Inform', 'Train', 'Depart', 'bishops stortford'], ['Inform', 'Train', 'Dest', 'cambridge'], ['Inform', 'Train', 'Day', 'sunday']]
+user: I am also looking for information about a train . I ' m also looking for a train from bishops stortford . I need a train going to cambridge . I would like to leave on sunday .
+sys: <|system|> 
+user in []
+user out [['Inform', 'Train', 'Leave', '14:45']]
+user: I need to leave after 14:45 .
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: Can you give me the travel time please ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: What is the travel time for that ride ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: What is the duration of the train ride ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: What 's the travel time on that trip ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: Can you give me the travel time please ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: That should work , what is the travel time on that ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: What 's the travel time on that trip ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: What is the total travel time ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: Can you give me the travel time please ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: What 's the travel time on that trip ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: Can you please give me the travel time .
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: That should work , what is the travel time on that ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: That should work , what is the travel time on that ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: Can you please give me the travel time .
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: What is the duration of the train ride ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: What 's the travel time on that trip ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: Could you tell me the travel time ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Train', 'Time', '?']]
+user: Could you tell me the travel time ?
+sys: <|system|> 
+user in []
+user out [['bye', 'general', 'none', 'none']]
+user: Actually , I ' m all set . Thank you ! Bye !.
+sys: <|system|> 
+user in []
+user out [['Inform', 'Police', 'none', 'none']]
+user: Help I was just robbed ! Could you please help me contact the police ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I only needed the phone number of the police station . Could I also get the address of the police station ? The postcode of the police station please.
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I only needed the phone number of the police station . Also , can you give me the exact address to the station ? What is its postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I 'll also need their phone number . Could I also get the address of the police station ? Can I get the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: Could you tell me where to find the nearest police station and give the telephone number ? What is the address ? Can I get the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: What is the police phone number , please ? Could I also have their address . What is the postcode for that station ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: May I get the phone number of the police station ? Can I have the address please ? What is the postcode for that station ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I only needed the phone number of the police station . Can you give me the exact address for the police ? I will also need the postcode please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I 'll also need their phone number . Can you give me their address , please ? What is the postcode of the police station ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: What is the police phone number , please ? Can you give me their address , please ? Can I please have the postcode of the police station as well ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I do n't know I am new to this area , please just give me the phone number to the police station . Can I have the address please ? Can I get the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: Do you have the phone number of the police station there ? Could I also get the address of the police station ? What is the postcode for that station ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: Could you tell me where to find the nearest police station and give the telephone number ? Also , can you give me the exact address to the station ? The postcode of the police station please.
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I 'll also need their phone number . Could I also have their address . I will also need the postcode please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I need to call them actually right now - do you have their phone number ? Can I have the address please ? What is its postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: May I get the phone number of the police station ? Can I have the address please ? Can you help me with locating the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I need to call them actually right now - do you have their phone number ? Can you give me the exact address for the police ? Can you help me with locating the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I only needed the phone number of the police station . Could I also have their address . Can you help me with locating the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I do n't know I am new to this area , please just give me the phone number to the police station . Can I have the address please ? What is its postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Addr', '?'], ['Request', 'Police', 'Post', '?']]
+user: I need to call them actually right now - do you have their phone number ? Can you give me the exact address for the police ? Can you help me with locating the postcode ?
+sys: <|system|> 
+user in []
+user out [['bye', 'general', 'none', 'none']]
+user: Thank you very much , goodbye .
+sys: <|system|> 
+user in []
+user out [['Inform', 'Restaurant', 'none', 'none'], ['Inform', 'Restaurant', 'Food', 'british'], ['Inform', 'Restaurant', 'Area', 'centre']]
+user: I need a restaurant to dine at in Cambridge on my upcoming trip . How about a british restaurant ? I also would like information on a place to eat in the centre .
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I just need the postcode .
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: What is their postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I will need the postcode of the restaurant though .
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I just need the post code .
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: Can I get the postcode for it please ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I just need the post code .
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: Can I get the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: Can I get the postcode for the restaurant ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I just need the postcode .
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: What is the postal code of the restaurant ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I would like to know the postcode of the restaurant , if possible ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I will need the postcode of the restaurant though .
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I just need the postcode .
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I would like to know the postcode of the restaurant , if possible ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: What is their postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: What is their postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: Can I get the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I would like to know the postcode of the restaurant , if possible ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Restaurant', 'Post', '?']]
+user: I just need the postcode .
+sys: <|system|> 
+user in []
+user out [['bye', 'general', 'none', 'none']]
+user: That 's all I need today . Thanks ! Bye !.
+sys: <|system|> 
+user in []
+user out [['Inform', 'Attraction', 'none', 'none'], ['Inform', 'Attraction', 'Type', 'college'], ['Inform', 'Attraction', 'Area', 'centre']]
+user: I am coming to Cambridge soon to see the many local attractions . I am looking for a college to visit . I am also looking for suggestions on places to go in the centre .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Can you give me their phone number please ? What is the postcode for this place ? That sounds great ! May I have the address of the attraction ? I would like to know the entrance fee .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Can I get the phone number of one ? Can you give me the postcode of the attraction ? Can I get the precise address please ? I will need the entrance fee please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: What is the phone number of the attraction ? Can you give me the postcode of the attraction ? Could I get the address of the attraction ? Can you give me the entrance fee ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Sounds good . Could I get the phone number of the attraction ? Can you give me the postcode of the attraction ? Just the address please. I will need the entrance fee please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Can I get the phone number of one you 'd recommend ? What is the postcode for this place ? Just the address please. Does it have an entrance fee ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: I 'd like their phone number if you have it available , please . Can you tell me their postcode ? Can I get the address of the attraction ? Can you let me know what the entrance fee is too ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: I need the phone number of the attraction as well . That will work great . Can I get their postcode please ? Can I get the address of the attraction ? I just need to know how much the entrance fee is .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Can I get the phone number of one you 'd recommend ? What is the postcode for this place ? That sounds great ! May I have the address of the attraction ? What are the entrance fees ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Can you give me the phone number of the attraction ? Can you tell me their postcode ? Can I get the address please ? I will need the entrance fee please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Can you give me the phone number of the attraction ? Oh , and what is their postcode , please ? That sounds great ! May I have the address of the attraction ? What are the entrance fees ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Can I get the phone number of one ? Can you let me have their postcode ? Is there an exact address , like a street number ? I will need the entrance fee please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: I 'd like their phone number if you have it available , please . That will work great . Can I get their postcode please ? Can I have the address of a good one ? I just need to know how much the entrance fee is .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Sounds good . Could I get the phone number of the attraction ? Oh , and what is their postcode , please ? Just the address please. What are the entrance fees ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: What is the phone number of the attraction ? What is the postcode for this place ? Can I have the address of a good one ? I will need the entrance fee please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Can I get the phone number of one you 'd recommend ? Can you tell me their postcode ? Is there an exact address , like a street number ? I just need to know how much the entrance fee is .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: I 'd like their phone number if you have it available , please . That will work great . Can I get their postcode please ? Could I get the address of the attraction ? Can you tell me the entrance fee ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: What is the phone number of the attraction ? Can you tell me their postcode ? Can I have the address of a good one ? What are the entrance fees ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: What is the phone number of the attraction ? Can you let me have their postcode ? Is there an exact address , like a street number ? Can you tell me the entrance fee ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?'], ['Request', 'Attraction', 'Addr', '?'], ['Request', 'Attraction', 'Fee', '?']]
+user: Please get me their phone number. What is the postcode for this place ? Can I get the precise address please ? What are the entrance fees ?
+sys: <|system|> 
+user in []
+user out [['bye', 'general', 'none', 'none']]
+user: That 's all I need today . Thanks ! Bye !.
+sys: <|system|> 
+user in []
+user out [['Inform', 'Attraction', 'none', 'none'], ['Inform', 'Attraction', 'Area', 'centre'], ['Inform', 'Attraction', 'Type', 'concerthall']]
+user: I ca n't wait to get there and see some of the local attractions . Can you help me ? I am also looking for places to go in town . Maybe something in the centre . A concerthall type of attraction .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: What is the phone number of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Can I get the phone number of one ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Can you give me the phone number of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Please get me their phone number.
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Sounds good . Could I get the phone number of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: I need the phone number of the attraction as well .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Sounds good . Could I get the phone number of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Can you give me their phone number please ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Can I get the phone number of one ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Can I get the phone number of one you 'd recommend ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Can I get the phone number of one you 'd recommend ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Can you give me the phone number of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Can I get the phone number of one ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: I 'd like their phone number if you have it available , please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: I need the phone number of the attraction as well .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Can I get the phone number of one ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Please get me their phone number.
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: I need the phone number of the attraction as well .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?']]
+user: Can you give me the phone number of the attraction ?
+sys: <|system|> 
+user in []
+user out [['bye', 'general', 'none', 'none']]
+user: That 's all I need today . Thanks ! Bye !.
+sys: <|system|> 
+user in []
+user out [['Inform', 'Attraction', 'none', 'none'], ['Inform', 'Attraction', 'Area', 'centre'], ['Inform', 'Attraction', 'Type', 'nightclub']]
+user: I am coming to Cambridge soon to see the many local attractions . I 'd like something in the centre . I am looking for a nightclub to visit .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Sounds good . Could I get the phone number of the attraction ? Can you tell me their postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Please get me their phone number. Can you let me have their postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: I need the phone number of the attraction as well . Can you tell me their postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Please get me their phone number. Can I please have the postcode of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Can you give me their phone number please ? Can I please have the postcode of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Please get me their phone number. Can you give me the postcode of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: What is the phone number of the attraction ? I 'll need the postcode of the attraction .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Can you give me their phone number please ? I 'll need the postcode of the attraction .
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: I 'd like their phone number if you have it available , please . Can you give me the postcode of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: What is the phone number of the attraction ? Can you give me the postcode of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: What is the phone number of the attraction ? What is their postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: What is the phone number of the attraction ? Can I please have the postcode of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: What is the phone number of the attraction ? Can you give me the postcode of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Can I get the phone number of one ? Can you tell me their postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Sounds good . Could I get the phone number of the attraction ? Oh , and what is their postcode , please ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Can you give me the phone number of the attraction ? That will work great . Can I get their postcode please ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: What is the phone number of the attraction ? What is their postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Can I get the phone number of one ? Can you give me the postcode of the attraction ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Attraction', 'Phone', '?'], ['Request', 'Attraction', 'Post', '?']]
+user: Can you give me their phone number please ? Oh , and what is their postcode , please ?
+sys: <|system|> 
+user in []
+user out [['bye', 'general', 'none', 'none']]
+user: Thank you , goodbye.
+sys: <|system|> 
+user in []
+user out [['Inform', 'Taxi', 'none', 'none'], ['Inform', 'Taxi', 'Depart', 'leverton house'], ['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant'], ['Inform', 'Taxi', 'Arrive', '15:30']]
+user: I also want to book a taxi to commute between the two places . I need a taxi to pick me up from leverton house please. The taxi should go to maharajah tandoori restaurant . I 'd like the arrival time to be 15:30 , please .
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: Hi , i need to book a taxi to go to maharajah tandoori restaurant .
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: I will be going to maharajah tandoori restaurant .
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: I need a taxi to take me to maharajah tandoori restaurant.
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: I need a taxi to take me to maharajah tandoori restaurant.
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: I need a taxi to take me to maharajah tandoori restaurant.
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: I 'll be heading to maharajah tandoori restaurant .
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: Taxi to maharajah tandoori restaurant please.
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: I need a taxi to take me in time for my reservation to maharajah tandoori restaurant today.
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: I need a tax to maharajah tandoori restaurant .
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: The taxi should go to maharajah tandoori restaurant .
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: Taxi to maharajah tandoori restaurant please.
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: Hi , i need to book a taxi to go to maharajah tandoori restaurant .
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: Taxi to maharajah tandoori restaurant please.
+sys: <|system|> 
+user in [['Request', 'Taxi', 'Dest', '?']]
+user out [['Inform', 'Taxi', 'Dest', 'maharajah tandoori restaurant']]
+user: I want to go to maharajah tandoori restaurant .
+sys: <|system|> 
+user in []
+user out [['Request', 'Taxi', 'Phone', '?'], ['Request', 'Taxi', 'Car', '?']]
+user: Can you get me the contact phone number please ? I need the car type please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Taxi', 'Phone', '?'], ['Request', 'Taxi', 'Car', '?']]
+user: Can I get the phone also please ? Can you give me the car type ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Taxi', 'Phone', '?'], ['Request', 'Taxi', 'Car', '?']]
+user: Do you have their phone number ? It would be nice if you would tell me the car type .
+sys: <|system|> 
+user in []
+user out [['Request', 'Taxi', 'Phone', '?'], ['Request', 'Taxi', 'Car', '?']]
+user: Could you please send me the phone number of the taxi ? Could I have the car type for this trip ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Taxi', 'Phone', '?'], ['Request', 'Taxi', 'Car', '?']]
+user: Can I get the phone also please ? I need the car type please .
+sys: <|system|> 
+user in []
+user out [['bye', 'general', 'none', 'none']]
+user: Ok , have a good day . Goodbye .
+sys: <|system|> 
+user in []
+user out [['Inform', 'Police', 'none', 'none']]
+user: Can you tell me the address to the police station in Cambridge ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: I only needed the phone number of the police station . May I also please have the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: I need to call them actually right now - do you have their phone number ? What is the postcode for that station ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: May I get the phone number of the police station ? What is the postcode for that station ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: Do you have the phone number of the police station there ? Can I please have the postcode of the police station as well ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: I do n't know I am new to this area , please just give me the phone number to the police station . The postcode of the police station please.
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: Can you give me the phone number please ? What is the postcode of the police station ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: I only needed the phone number of the police station . I will also need the postcode please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: What is the police phone number , please ? Can you help me with locating the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: What is their phone number ? Can you help me with locating the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: What is their phone number ? Can I get the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: What is their phone number ? What is the postcode of the police station ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: I only needed the phone number of the police station . I will also need the postcode please .
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: Could you tell me where to find the nearest police station and give the telephone number ? What is its postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: I only needed the phone number of the police station . The postcode of the police station please.
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: Can you give me the phone number please ? Can I get the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: I 'll also need their phone number . Can I get the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: What is the police phone number , please ? May I also please have the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: I need to call them actually right now - do you have their phone number ? Can I get the postcode ?
+sys: <|system|> 
+user in []
+user out [['Request', 'Police', 'Phone', '?'], ['Request', 'Police', 'Post', '?']]
+user: I only needed the phone number of the police station . What is the postcode for that station ?
+sys: <|system|> 
+user in []
+user out [['bye', 'general', 'none', 'none']]
+user: Thank you , goodbye.
+sys: <|system|> 
